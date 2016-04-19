@@ -1,0 +1,29 @@
+package tests;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LoginTest {
+
+	
+	public static void main(String[] args) {
+		WebDriver driver;
+		driver = new FirefoxDriver();
+		String baseURL ="http://www.letskodeit.com";
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		driver.get(baseURL);
+		//WebElement ele= driver.findElement(By.xpath("//div[@class='container']//a[text()='Enroll now']"));
+		//ele.click();
+		WebElement signupLink =driver.findElement(By.xpath("//div[@id='comp-iiqg1vggactionTitle']"));
+		signupLink.click();
+		
+
+	}
+
+}

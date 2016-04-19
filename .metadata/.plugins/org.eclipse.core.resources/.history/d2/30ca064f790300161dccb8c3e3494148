@@ -1,0 +1,251 @@
+2016-04-15 19:19:33,491 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:19:33,493 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:19:33,493 INFO  [devpinoyLogger] $$$$$$$$$$$$$$$$$$$$$                 AmericanGolfPutterSum VerificationTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 19:19:33,493 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:19:33,493 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:19:33,493 INFO  [devpinoyLogger] Initializing  CONFIG.prperties file 
+2016-04-15 19:19:33,495 INFO  [devpinoyLogger] Initializing OR.prperties file 
+2016-04-15 19:19:33,525 INFO  [devpinoyLogger] Openning Firefox Browser Mozilla 
+2016-04-15 19:19:40,962 INFO  [devpinoyLogger] Maximizing Browser 
+2016-04-15 19:19:41,106 INFO  [devpinoyLogger] Implicit wait for 20 sec 
+2016-04-15 19:19:41,148 INFO  [devpinoyLogger] Navigating to url: http://www.americangolf.co.uk/golf-clubs/putters 
+2016-04-15 19:19:50,292 INFO  [devpinoyLogger] Putters - Golf Clubs - american golf 
+2016-04-15 19:19:53,404 INFO  [devpinoyLogger] No of putter count found is 10 
+2016-04-15 19:19:53,429 INFO  [devpinoyLogger] The No of putter for brand :  is 48 
+2016-04-15 19:19:53,451 INFO  [devpinoyLogger] The No of putter for brand :  is 21 
+2016-04-15 19:19:53,477 INFO  [devpinoyLogger] The No of putter for brand :  is 14 
+2016-04-15 19:19:53,827 INFO  [devpinoyLogger] The No of putter for brand :  is 11 
+2016-04-15 19:19:53,844 INFO  [devpinoyLogger] The No of putter for brand :  is 8 
+2016-04-15 19:19:53,861 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:19:53,881 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:19:53,900 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:19:53,924 INFO  [devpinoyLogger] The No of putter for brand :  is 1 
+2016-04-15 19:19:53,940 INFO  [devpinoyLogger] The No of putter for brand :  is 1 
+2016-04-15 19:19:53,940 INFO  [devpinoyLogger] Sum of all Putter is: 116 
+2016-04-15 19:19:53,994 INFO  [devpinoyLogger] Actual total num of Putter from app : 116 
+2016-04-15 19:19:53,996 INFO  [devpinoyLogger] Assertion pass since actual 116 is matching with expected : 116 
+2016-04-15 19:19:53,999 INFO  [devpinoyLogger] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 19:19:53,999 INFO  [devpinoyLogger] X 
+2016-04-15 19:19:54,001 INFO  [devpinoyLogger] X 
+2016-04-15 19:19:54,001 INFO  [devpinoyLogger] X 
+2016-04-15 19:19:54,002 INFO  [devpinoyLogger] X 
+2016-04-15 19:29:04,302 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:29:04,304 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:29:04,304 INFO  [devpinoyLogger] $$$$$$$$$$$$$$$$$$$$$                 AmericanGolfPutterSum VerificationTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 19:29:04,304 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:29:04,304 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:29:04,304 INFO  [devpinoyLogger] Initializing  CONFIG.prperties file 
+2016-04-15 19:29:04,306 INFO  [devpinoyLogger] Initializing OR.prperties file 
+2016-04-15 19:29:04,307 INFO  [devpinoyLogger] Openning Firefox Browser Mozilla 
+2016-04-15 19:29:11,546 INFO  [devpinoyLogger] Maximizing Browser 
+2016-04-15 19:29:11,641 INFO  [devpinoyLogger] Implicit wait for 20 sec 
+2016-04-15 19:29:11,727 INFO  [devpinoyLogger] Navigating to url: http://www.americangolf.co.uk/golf-clubs/putters 
+2016-04-15 19:29:17,203 INFO  [devpinoyLogger] Putters - Golf Clubs - american golf 
+2016-04-15 19:29:20,380 INFO  [devpinoyLogger] No of putter count found is 10 
+2016-04-15 19:29:20,413 INFO  [devpinoyLogger] The No of putter for brand :  is 48 
+2016-04-15 19:29:20,436 INFO  [devpinoyLogger] The No of putter for brand :  is 21 
+2016-04-15 19:29:20,458 INFO  [devpinoyLogger] The No of putter for brand :  is 14 
+2016-04-15 19:29:20,480 INFO  [devpinoyLogger] The No of putter for brand :  is 11 
+2016-04-15 19:29:20,502 INFO  [devpinoyLogger] The No of putter for brand :  is 8 
+2016-04-15 19:29:20,521 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:29:20,541 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:29:20,558 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:29:20,574 INFO  [devpinoyLogger] The No of putter for brand :  is 1 
+2016-04-15 19:29:20,597 INFO  [devpinoyLogger] The No of putter for brand :  is 1 
+2016-04-15 19:29:20,597 INFO  [devpinoyLogger] Sum of all Putter is: 116 
+2016-04-15 19:29:20,652 INFO  [devpinoyLogger] Actual total num of Putter from app : 116 
+2016-04-15 19:29:20,655 INFO  [devpinoyLogger] Assertion pass since actual 116 is matching with expected : 116 
+2016-04-15 19:29:20,657 INFO  [devpinoyLogger] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 19:29:20,657 INFO  [devpinoyLogger] X 
+2016-04-15 19:29:20,658 INFO  [devpinoyLogger] X 
+2016-04-15 19:29:20,658 INFO  [devpinoyLogger] X 
+2016-04-15 19:29:20,658 INFO  [devpinoyLogger] X 
+2016-04-15 19:34:50,374 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:34:50,376 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:34:50,376 INFO  [devpinoyLogger] $$$$$$$$$$$$$$$$$$$$$                 AmericanGolfPutterSum VerificationTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 19:34:50,376 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:34:50,376 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 19:34:50,376 INFO  [devpinoyLogger] Initializing  CONFIG.prperties file 
+2016-04-15 19:34:50,378 INFO  [devpinoyLogger] Initializing OR.prperties file 
+2016-04-15 19:34:50,379 INFO  [devpinoyLogger] Openning Firefox Browser Mozilla 
+2016-04-15 19:34:57,732 INFO  [devpinoyLogger] Maximizing Browser 
+2016-04-15 19:34:57,795 INFO  [devpinoyLogger] Implicit wait for 20 sec 
+2016-04-15 19:34:57,819 INFO  [devpinoyLogger] Navigating to url: http://www.americangolf.co.uk/golf-clubs/putters 
+2016-04-15 19:35:03,151 INFO  [devpinoyLogger] Putters - Golf Clubs - american golf 
+2016-04-15 19:35:06,264 INFO  [devpinoyLogger] No of putter count found is 10 
+2016-04-15 19:35:06,286 INFO  [devpinoyLogger] The No of putter for brand :  is 48 
+2016-04-15 19:35:06,306 INFO  [devpinoyLogger] The No of putter for brand :  is 21 
+2016-04-15 19:35:06,322 INFO  [devpinoyLogger] The No of putter for brand :  is 14 
+2016-04-15 19:35:06,341 INFO  [devpinoyLogger] The No of putter for brand :  is 11 
+2016-04-15 19:35:06,363 INFO  [devpinoyLogger] The No of putter for brand :  is 8 
+2016-04-15 19:35:06,386 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:35:06,405 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:35:06,423 INFO  [devpinoyLogger] The No of putter for brand :  is 4 
+2016-04-15 19:35:06,443 INFO  [devpinoyLogger] The No of putter for brand :  is 1 
+2016-04-15 19:35:06,468 INFO  [devpinoyLogger] The No of putter for brand :  is 1 
+2016-04-15 19:35:06,469 INFO  [devpinoyLogger] Sum of all Putter is: 116 
+2016-04-15 19:35:06,554 INFO  [devpinoyLogger] Actual total num of Putter from app : 116 
+2016-04-15 19:35:06,557 INFO  [devpinoyLogger] Assertion pass since actual 116 is matching with expected : 116 
+2016-04-15 19:35:06,558 INFO  [devpinoyLogger] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 19:35:06,558 INFO  [devpinoyLogger] X 
+2016-04-15 19:35:06,558 INFO  [devpinoyLogger] X 
+2016-04-15 19:35:06,558 INFO  [devpinoyLogger] X 
+2016-04-15 19:35:06,558 INFO  [devpinoyLogger] X 
+2016-04-15 21:38:32,979 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 21:38:32,994 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 21:38:32,994 INFO  [devpinoyLogger] $$$$$$$$$$$$$$$$$$$$$                 FaceBookFriends List       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 21:38:32,994 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 21:38:32,994 INFO  [devpinoyLogger] **************************************************************************************** 
+2016-04-15 21:38:32,994 INFO  [devpinoyLogger] Opening the browser: Mozilla 
+2016-04-15 21:38:43,682 INFO  [devpinoyLogger] Logging in to Facebook account 
+2016-04-15 21:38:44,279 INFO  [devpinoyLogger] Entering the user email: ayon88@hotmail.com 
+2016-04-15 21:38:45,728 INFO  [devpinoyLogger] Entering the encoded password : TGl0dG9uNTc2Nw== 
+2016-04-15 21:38:54,925 INFO  [devpinoyLogger] Clicking into my profile link 
+2016-04-15 21:38:58,163 INFO  [devpinoyLogger] Clicking into my friends link 
+2016-04-15 21:39:37,107 INFO  [devpinoyLogger] Total no of friends is :140 
+2016-04-15 21:39:37,107 INFO  [devpinoyLogger] Extracting and Printing the friends name 
+2016-04-15 21:39:37,142 INFO  [devpinoyLogger] Friend Name 0) is: Mohammad Haque 
+2016-04-15 21:39:37,165 INFO  [devpinoyLogger] Friend Name 1) is: Sushmita Samad 
+2016-04-15 21:39:37,193 INFO  [devpinoyLogger] Friend Name 2) is: Shahid Haque 
+2016-04-15 21:39:37,219 INFO  [devpinoyLogger] Friend Name 3) is: Segufta Samad 
+2016-04-15 21:39:37,243 INFO  [devpinoyLogger] Friend Name 4) is: Naznin Haque 
+2016-04-15 21:39:37,271 INFO  [devpinoyLogger] Friend Name 5) is: Shara Rahman 
+2016-04-15 21:39:37,297 INFO  [devpinoyLogger] Friend Name 6) is: Kazi Aynul Haque 
+2016-04-15 21:39:37,321 INFO  [devpinoyLogger] Friend Name 7) is: Dewan Ahsan Kabir 
+2016-04-15 21:39:37,346 INFO  [devpinoyLogger] Friend Name 8) is: Afsana Ali 
+2016-04-15 21:39:37,369 INFO  [devpinoyLogger] Friend Name 9) is: Kaiser Khan 
+2016-04-15 21:39:37,401 INFO  [devpinoyLogger] Friend Name 10) is: Afsar Ali 
+2016-04-15 21:39:37,426 INFO  [devpinoyLogger] Friend Name 11) is: Tahseen Ahmed 
+2016-04-15 21:39:37,456 INFO  [devpinoyLogger] Friend Name 12) is: Naushin Laila 
+2016-04-15 21:39:37,478 INFO  [devpinoyLogger] Friend Name 13) is: Sanjeena Alam 
+2016-04-15 21:39:37,499 INFO  [devpinoyLogger] Friend Name 14) is: Saifur Chowdhury 
+2016-04-15 21:39:37,526 INFO  [devpinoyLogger] Friend Name 15) is: Syeda Shubhrata Hussain Tuli 
+2016-04-15 21:39:37,549 INFO  [devpinoyLogger] Friend Name 16) is: Obayed Azman 
+2016-04-15 21:39:37,573 INFO  [devpinoyLogger] Friend Name 17) is: Anar Chowdhury 
+2016-04-15 21:39:37,597 INFO  [devpinoyLogger] Friend Name 18) is: Helen Samad 
+2016-04-15 21:39:37,620 INFO  [devpinoyLogger] Friend Name 19) is: Munira Haq 
+2016-04-15 21:39:37,645 INFO  [devpinoyLogger] Friend Name 20) is: Manjan Ahmed Chowdhury 
+2016-04-15 21:39:37,668 INFO  [devpinoyLogger] Friend Name 21) is: Tanvina Sharmin 
+2016-04-15 21:39:37,690 INFO  [devpinoyLogger] Friend Name 22) is: Ghulam K. Limon 
+2016-04-15 21:39:37,712 INFO  [devpinoyLogger] Friend Name 23) is: Faisal Rashid 
+2016-04-15 21:39:37,733 INFO  [devpinoyLogger] Friend Name 24) is: Noor Jinnah 
+2016-04-15 21:39:37,762 INFO  [devpinoyLogger] Friend Name 25) is: Bakul Chowdhury 
+2016-04-15 21:39:37,785 INFO  [devpinoyLogger] Friend Name 26) is: Bashir Ahmed 
+2016-04-15 21:39:37,808 INFO  [devpinoyLogger] Friend Name 27) is: Nur Taraky 
+2016-04-15 21:39:37,830 INFO  [devpinoyLogger] Friend Name 28) is: Shamimara Tanno 
+2016-04-15 21:39:37,852 INFO  [devpinoyLogger] Friend Name 29) is: Mehrin Haque 
+2016-04-15 21:39:37,882 INFO  [devpinoyLogger] Friend Name 30) is: Kazi Motiur 
+2016-04-15 21:39:37,908 INFO  [devpinoyLogger] Friend Name 31) is: Saadat Hossain Saif 
+2016-04-15 21:39:37,930 INFO  [devpinoyLogger] Friend Name 32) is: Zeeshan Ahmed 
+2016-04-15 21:39:37,956 INFO  [devpinoyLogger] Friend Name 33) is: Nasrin Biplob 
+2016-04-15 21:39:38,006 INFO  [devpinoyLogger] Friend Name 34) is: Rebecca Diaz Kabir 
+2016-04-15 21:39:38,030 INFO  [devpinoyLogger] Friend Name 35) is: Asma Begum 
+2016-04-15 21:39:38,052 INFO  [devpinoyLogger] Friend Name 36) is: Farzana Khan 
+2016-04-15 21:39:38,073 INFO  [devpinoyLogger] Friend Name 37) is: Sharif Islam 
+2016-04-15 21:39:38,101 INFO  [devpinoyLogger] Friend Name 38) is: Afsana Alam 
+2016-04-15 21:39:38,122 INFO  [devpinoyLogger] Friend Name 39) is: Tabassum Haque 
+2016-04-15 21:39:38,150 INFO  [devpinoyLogger] Friend Name 40) is: Mansur Chowdhury 
+2016-04-15 21:39:38,173 INFO  [devpinoyLogger] Friend Name 41) is: Abu Liaquat Hussain 
+2016-04-15 21:39:38,197 INFO  [devpinoyLogger] Friend Name 42) is: Monir Ahmed 
+2016-04-15 21:39:38,222 INFO  [devpinoyLogger] Friend Name 43) is: Shukria Begum 
+2016-04-15 21:39:38,243 INFO  [devpinoyLogger] Friend Name 44) is: Nahid Fatima Tanni 
+2016-04-15 21:39:38,272 INFO  [devpinoyLogger] Friend Name 45) is: Mehtab Jab 
+2016-04-15 21:39:38,297 INFO  [devpinoyLogger] Friend Name 46) is: Shamim Chowdhury 
+2016-04-15 21:39:38,321 INFO  [devpinoyLogger] Friend Name 47) is: Selina Chowdhury 
+2016-04-15 21:39:38,347 INFO  [devpinoyLogger] Friend Name 48) is: ?ajïa Afrî? Qurêshï 
+2016-04-15 21:39:38,370 INFO  [devpinoyLogger] Friend Name 49) is: Jacob Chowdhury 
+2016-04-15 21:39:38,392 INFO  [devpinoyLogger] Friend Name 50) is: Wahida Khan 
+2016-04-15 21:39:38,414 INFO  [devpinoyLogger] Friend Name 51) is: Rahman Kazimashiur 
+2016-04-15 21:39:38,435 INFO  [devpinoyLogger] Friend Name 52) is: Shafeen Islam 
+2016-04-15 21:39:38,459 INFO  [devpinoyLogger] Friend Name 53) is: Masuma Begum 
+2016-04-15 21:39:38,482 INFO  [devpinoyLogger] Friend Name 54) is: Nahrin Kawsar Hima 
+2016-04-15 21:39:38,503 INFO  [devpinoyLogger] Friend Name 55) is: Farhana Khan 
+2016-04-15 21:39:38,525 INFO  [devpinoyLogger] Friend Name 56) is: Hamza Choudhury 
+2016-04-15 21:39:38,548 INFO  [devpinoyLogger] Friend Name 57) is: Nazma Rasul 
+2016-04-15 21:39:38,573 INFO  [devpinoyLogger] Friend Name 58) is: Saathi Ksp 
+2016-04-15 21:39:38,598 INFO  [devpinoyLogger] Friend Name 59) is: Tamanna Alam 
+2016-04-15 21:39:38,622 INFO  [devpinoyLogger] Friend Name 60) is: Shakhawat Ahmed 
+2016-04-15 21:39:38,655 INFO  [devpinoyLogger] Friend Name 61) is: Modina Begum 
+2016-04-15 21:39:38,678 INFO  [devpinoyLogger] Friend Name 62) is: Zeanat Parven 
+2016-04-15 21:39:38,700 INFO  [devpinoyLogger] Friend Name 63) is: Tanzeena Alam 
+2016-04-15 21:39:38,721 INFO  [devpinoyLogger] Friend Name 64) is: Ruksana Kabir 
+2016-04-15 21:39:38,746 INFO  [devpinoyLogger] Friend Name 65) is: Adil Shah 
+2016-04-15 21:39:38,767 INFO  [devpinoyLogger] Friend Name 66) is: Farhad Zahir Ahmed 
+2016-04-15 21:39:38,790 INFO  [devpinoyLogger] Friend Name 67) is: Aftab Hussain Iqbal 
+2016-04-15 21:39:38,811 INFO  [devpinoyLogger] Friend Name 68) is: Saadat Aurnob Syed 
+2016-04-15 21:39:38,836 INFO  [devpinoyLogger] Friend Name 69) is: Altaf Hussain Iqbal 
+2016-04-15 21:39:38,858 INFO  [devpinoyLogger] Friend Name 70) is: Azreen Karim 
+2016-04-15 21:39:38,880 INFO  [devpinoyLogger] Friend Name 71) is: Mohammed Chowdhury 
+2016-04-15 21:39:38,903 INFO  [devpinoyLogger] Friend Name 72) is: Adnan Haque 
+2016-04-15 21:39:38,925 INFO  [devpinoyLogger] Friend Name 73) is: Saleh Choudhury 
+2016-04-15 21:39:38,953 INFO  [devpinoyLogger] Friend Name 74) is: Aisha Umme Rahina Hussain-Salam 
+2016-04-15 21:39:38,988 INFO  [devpinoyLogger] Friend Name 75) is: Nadira Anis 
+2016-04-15 21:39:39,010 INFO  [devpinoyLogger] Friend Name 76) is: Jacob Chowdhury 
+2016-04-15 21:39:39,036 INFO  [devpinoyLogger] Friend Name 77) is: Ferdous Khan 
+2016-04-15 21:39:39,063 INFO  [devpinoyLogger] Friend Name 78) is: Mahbub Alam Qurashi 
+2016-04-15 21:39:39,086 INFO  [devpinoyLogger] Friend Name 79) is: Fatema Binte Zamir 
+2016-04-15 21:39:39,108 INFO  [devpinoyLogger] Friend Name 80) is: Nadira Begum 
+2016-04-15 21:39:39,130 INFO  [devpinoyLogger] Friend Name 81) is: Syed Ghulam Rahman 
+2016-04-15 21:39:39,151 INFO  [devpinoyLogger] Friend Name 82) is: Dewan Nafim 
+2016-04-15 21:39:39,179 INFO  [devpinoyLogger] Friend Name 83) is: Biplob Syed 
+2016-04-15 21:39:39,200 INFO  [devpinoyLogger] Friend Name 84) is: Sunny Shah 
+2016-04-15 21:39:39,222 INFO  [devpinoyLogger] Friend Name 85) is: Naseef A 
+2016-04-15 21:39:39,243 INFO  [devpinoyLogger] Friend Name 86) is: Bushra Haque 
+2016-04-15 21:39:39,266 INFO  [devpinoyLogger] Friend Name 87) is: Roxsana Begum 
+2016-04-15 21:39:39,287 INFO  [devpinoyLogger] Friend Name 88) is: Shahidur Chowdhury 
+2016-04-15 21:39:39,312 INFO  [devpinoyLogger] Friend Name 89) is: Wahida Khan 
+2016-04-15 21:39:39,333 INFO  [devpinoyLogger] Friend Name 90) is: Wahida Khan 
+2016-04-15 21:39:39,353 INFO  [devpinoyLogger] Friend Name 91) is: Mohammad Shafquat Alam 
+2016-04-15 21:39:39,375 INFO  [devpinoyLogger] Friend Name 92) is: Wahid Chowdhury 
+2016-04-15 21:39:39,405 INFO  [devpinoyLogger] Friend Name 93) is: Labiba Ahasun 
+2016-04-15 21:39:39,426 INFO  [devpinoyLogger] Friend Name 94) is: Samir Abdul Haque 
+2016-04-15 21:39:39,449 INFO  [devpinoyLogger] Friend Name 95) is: Nishat Kabir 
+2016-04-15 21:39:39,470 INFO  [devpinoyLogger] Friend Name 96) is: Zia Khan 
+2016-04-15 21:39:39,492 INFO  [devpinoyLogger] Friend Name 97) is: Shafqat Ali 
+2016-04-15 21:39:39,514 INFO  [devpinoyLogger] Friend Name 98) is: Rahbar Ahmed 
+2016-04-15 21:39:39,535 INFO  [devpinoyLogger] Friend Name 99) is: Nahin Kabir 
+2016-04-15 21:39:39,557 INFO  [devpinoyLogger] Friend Name 100) is: Shegufta Ferdousi 
+2016-04-15 21:39:39,579 INFO  [devpinoyLogger] Friend Name 101) is: Nasrin Kabir 
+2016-04-15 21:39:39,603 INFO  [devpinoyLogger] Friend Name 102) is: M Shah Azad Ali 
+2016-04-15 21:39:39,625 INFO  [devpinoyLogger] Friend Name 103) is: Nargis Akter 
+2016-04-15 21:39:39,650 INFO  [devpinoyLogger] Friend Name 104) is: Moazzem Sarker 
+2016-04-15 21:39:39,672 INFO  [devpinoyLogger] Friend Name 105) is: Sajjad Ali 
+2016-04-15 21:39:39,696 INFO  [devpinoyLogger] Friend Name 106) is: Fadiya Chowdhury 
+2016-04-15 21:39:39,718 INFO  [devpinoyLogger] Friend Name 107) is: Saika Parveen 
+2016-04-15 21:39:39,739 INFO  [devpinoyLogger] Friend Name 108) is: Sadiqul Islam 
+2016-04-15 21:39:39,761 INFO  [devpinoyLogger] Friend Name 109) is: Shakiba Ali 
+2016-04-15 21:39:39,782 INFO  [devpinoyLogger] Friend Name 110) is: Ankur Patel 
+2016-04-15 21:39:39,804 INFO  [devpinoyLogger] Friend Name 111) is: MD Salam 
+2016-04-15 21:39:39,834 INFO  [devpinoyLogger] Friend Name 112) is: Shakila Shihab Nabi 
+2016-04-15 21:39:39,856 INFO  [devpinoyLogger] Friend Name 113) is: Mohammed Haque 
+2016-04-15 21:39:39,884 INFO  [devpinoyLogger] Friend Name 114) is: Zeanat Parven 
+2016-04-15 21:39:39,908 INFO  [devpinoyLogger] Friend Name 115) is: Abrar Daiyan 
+2016-04-15 21:39:39,929 INFO  [devpinoyLogger] Friend Name 116) is: Farida Khanam 
+2016-04-15 21:39:39,953 INFO  [devpinoyLogger] Friend Name 117) is: Abid Ali 
+2016-04-15 21:39:39,974 INFO  [devpinoyLogger] Friend Name 118) is: Md.Enamul Karim Khan 
+2016-04-15 21:39:39,997 INFO  [devpinoyLogger] Friend Name 119) is: Karim Iqbal Nouman 
+2016-04-15 21:39:40,019 INFO  [devpinoyLogger] Friend Name 120) is: Fatima Kaneez 
+2016-04-15 21:39:40,041 INFO  [devpinoyLogger] Friend Name 121) is: Mohammed Masudur Rahman 
+2016-04-15 21:39:40,075 INFO  [devpinoyLogger] Friend Name 122) is: Stephen Mathew 
+2016-04-15 21:39:40,097 INFO  [devpinoyLogger] Friend Name 123) is: Akm M Rashid 
+2016-04-15 21:39:40,120 INFO  [devpinoyLogger] Friend Name 124) is: Salma El Shafei 
+2016-04-15 21:39:40,141 INFO  [devpinoyLogger] Friend Name 125) is: Nazmul Haque Rpmc 
+2016-04-15 21:39:40,162 INFO  [devpinoyLogger] Friend Name 126) is: Rimi Afroze 
+2016-04-15 21:39:40,183 INFO  [devpinoyLogger] Friend Name 127) is: Nimish Patel 
+2016-04-15 21:39:40,206 INFO  [devpinoyLogger] Friend Name 128) is: Syeda Nahar 
+2016-04-15 21:39:40,222 INFO  [devpinoyLogger] Friend Name 129) is: Basharat Ali 
+2016-04-15 21:39:40,241 INFO  [devpinoyLogger] Friend Name 130) is: Patrick Babatunde 
+2016-04-15 21:39:40,261 INFO  [devpinoyLogger] Friend Name 131) is: Mohammed Alam 
+2016-04-15 21:39:40,296 INFO  [devpinoyLogger] Friend Name 132) is: Setu Chowdhury 
+2016-04-15 21:39:40,315 INFO  [devpinoyLogger] Friend Name 133) is: Rejwana Rahman 
+2016-04-15 21:39:40,336 INFO  [devpinoyLogger] Friend Name 134) is: Land Angel Annanna 
+2016-04-15 21:39:40,355 INFO  [devpinoyLogger] Friend Name 135) is: Sadman Rahman 
+2016-04-15 21:39:40,375 INFO  [devpinoyLogger] Friend Name 136) is: Mayesha Tasnim Haque 
+2016-04-15 21:39:40,396 INFO  [devpinoyLogger] Friend Name 137) is: Radia Rahman 
+2016-04-15 21:39:40,418 INFO  [devpinoyLogger] Friend Name 138) is: Munni Munni 
+2016-04-15 21:39:40,440 INFO  [devpinoyLogger] Friend Name 139) is: Modina Begum 
+2016-04-15 21:39:40,441 INFO  [devpinoyLogger] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 21:39:40,442 INFO  [devpinoyLogger] X 
+2016-04-15 21:39:40,442 INFO  [devpinoyLogger] X 
+2016-04-15 21:39:40,442 INFO  [devpinoyLogger] X 
+2016-04-15 21:39:40,442 INFO  [devpinoyLogger] X 

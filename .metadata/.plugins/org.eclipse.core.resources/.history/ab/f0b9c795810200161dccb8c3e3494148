@@ -1,0 +1,63 @@
+package stepdefinition;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class TestingSteps {
+	WebDriver driver;
+	
+	@Given("^User is in home page$")
+	public void user_is_in_home_page() {
+		driver = new FirefoxDriver();
+		String baseURL ="http://www.letskodeit.com";
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(baseURL);
+	}
+
+	@When("^User enters username and password$")
+	public void user_enters_username_and_password(){
+		WebElement signupLink =driver.findElement(By.id("comp-iiqg1vggactionTitle"));
+		signupLink.click();
+		WebElement siginpLink =driver.findElement(By.xpath("//div[@id='signUpDialogdialog']//a"));
+		siginpLink.click();
+		WebElement emailInput =driver.findElement(By.xpath("//div[@id='memberLoginDialogemail']//input"));
+		emailInput.sendKeys("test@email.com");
+		WebElement passwordInput =driver.findElement(By.xpath("//div[@id='memberLoginDialogpassword']//input"));
+		passwordInput.sendKeys("abcabc");
+	}
+
+	@When("^clicks go button$")
+	public void clicks_go_button() throws InterruptedException {
+		WebElement goButton =driver.findElement(By.id("memberLoginDialogsubmitButton"));
+		goButton.click();
+		Thread.sleep(3000);
+	}
+
+	@Then("^He can visit the practice page$")
+	public void he_can_visit_the_practice_page() {
+		WebElement practicePageLink =driver.findElement(By.xpath("//p[@id='DrpDwnMn06label']"));
+		practicePageLink.click();
+	}
+
+	@Then("^A message is displayed$")
+	public void a_message_is_displayed() {
+		String expectedText = "Practice Page (Restricted)";
+		String headerText = driver.findElement(By.xpath("//div[@id='pudoainlineContent']//h2")).getText();
+		if (headerText.equals(expectedText)){
+			System.out.println("Login Successful");
+		}else{
+			System.out.println("Login failed");
+		}
+	}
+
+}

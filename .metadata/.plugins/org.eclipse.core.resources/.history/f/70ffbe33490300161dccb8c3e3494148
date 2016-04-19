@@ -1,0 +1,129 @@
+package com.alimun.keywordframework;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.alimun.keywordframework.util.Constants;
+import com.alimun.keywordframework.util.Log;
+
+public class PriceRangeVerify {
+	
+	String BrowserType;
+	WebDriver driver;
+	Properties CONFIG;
+	Properties OR;
+
+	@BeforeClass
+	public void openBrowser() throws IOException{
+		DOMConfigurator.configure("log4j.xml");
+		Log.startTestCase("flipKartPriceRange VerificationTest");
+		Log.info("Initializing  CONFIG.prperties file");
+		CONFIG = new Properties();
+		FileInputStream fis = new FileInputStream (Constants.CONFIG_path);
+		CONFIG.load(fis);
+		//System.out.println(CONFIG.getProperty("URL_Name"));
+		
+		Log.info("Initializing OR.prperties file");
+		OR = new Properties();
+		fis = new FileInputStream (Constants.OR_path);
+		OR.load(fis);
+		//System.out.println(OR.getProperty("loginLink_xpath"));
+		
+		if(CONFIG.getProperty("BrowserType").equals("Mozilla")){
+			Log.info("Openning Firefox Browser "+CONFIG.getProperty("BrowserType"));
+			driver = new FirefoxDriver();
+			}else if (CONFIG.getProperty("BrowserType").equals("Chrome")){
+				Log.info("Openning Chrome Browser "+CONFIG.getProperty("BrowserType"));
+				System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+				driver =new ChromeDriver();
+			}else if (CONFIG.getProperty("BrowserType").equals("IE")){
+				Log.info("Openning IE Browser "+CONFIG.getProperty("BrowserType"));
+				System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer.exe");
+				driver = new InternetExplorerDriver();
+			}
+		Log.info("Maximizing Browser");
+		driver.manage().window().maximize();
+		Log.info("Implicit wait for 20 sec");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
+	
+	@Test
+	public void flipKartPriceRange() throws InterruptedException{
+		
+		//- Go to :http://www.flipkart.com/mobiles?otracker=hp_nmenu_quicklinks_Mobiles
+		Log.info("Navigating to url: "+CONFIG.getProperty("goto_URL"));
+		driver.get(CONFIG.getProperty("goto_URL"));
+		Thread.sleep(3000);
+		
+		//- Click on link on left side - "Price range between Rs 5001 and 10000"
+		
+		String priceRange = "Rs. 5001 - Rs. 10000";
+		Log.info("Clicking on price range: "+priceRange);
+		driver.findElement(By.xpath("//div[@id='fk-mainbody-id']//li[3]/a/div/div/img")).click();
+				//a[text()='"+priceRange +"']"
+		
+		//- Verify whether prices of all mobiles is beween 5001 and 10000
+	
+		WebElement element = driver.findElement(By.id("products"));
+		List<WebElement> price = element.findElements(By.xpath("//div[@id='products']//div[@class='pu-final']/span"));
+		price.addAll(driver.findElements(By.xpath("//*[@id='page-2']//div[@class='pu-final']/span")));
+		System.out.println("No of mobile price found is "+price.size());
+		
+		for(int i=0; i<price.size(); i++){
+			Log.info("The price capture is: " +price.get(i).getText());
+			String mobolePrice= getNumber(price.get(i).getText());
+			Log.info("Splitted price as: "+mobolePrice);
+			int mobPrice=Integer.parseInt(mobolePrice);
+			
+			if(mobPrice>=5001||mobPrice<=10000){
+				System.out.println("Test Passed");
+				Log.info("Test Passed");
+				
+			}else{
+				System.out.println("Test Failed");
+				Log.info("Test Failed");
+			}
+			
+		}
+		driver.close();
+	}
+	
+		
+	public WebElement anyinput_Field(String Object){
+		Log.info("Executing function anyinput_Field with xpath-"+Object);
+		WebElement elementInput = driver.findElement(By.xpath(OR.getProperty(Object)));
+		return elementInput;
+	
+	}
+	public String getNumber(String mPrice){
+		//this method will return string after splitting "Rs. 6,000" to number 6000
+		
+		//this will split " form the string
+				//String[] temp1= mPrice.split("\"");
+				//this will split "Rs." from the string
+				String[] temp2 = mPrice.split("Rs. ");
+				//this will split "," from the string
+				String[] temp3 = temp2[1].split(",");
+				//this will add the 1st and 2nd part of the string after removing ","
+				String temp4 = (temp3[0]+temp3[1]);
+				
+				return temp4;
+	}
+
+}

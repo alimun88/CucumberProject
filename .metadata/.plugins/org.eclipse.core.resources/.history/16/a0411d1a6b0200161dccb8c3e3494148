@@ -1,0 +1,9 @@
+Feature: Login
+Scenario: Successful Login with valid credentials
+Given User is in home page
+When User enters username and password
+Then He can visit the practice page
+
+Scenario:  Successful logout
+When user logout from the application
+Then he cannot visit practice page
